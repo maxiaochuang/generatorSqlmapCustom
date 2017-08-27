@@ -29,8 +29,10 @@ public class GeneratorSqlmap {
 	} 
 	public static void main(String[] args) throws Exception {
 		try {
+			System.out.println("ssssssssssssssssss");
 			GeneratorSqlmap generatorSqlmap = new GeneratorSqlmap();
 			generatorSqlmap.generator();
+			System.out.println("1111111111111111");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
